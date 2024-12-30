@@ -11,6 +11,6 @@ RETURN the final sentence
 - clean the sentence (,.:?!, etc), preprocessing
 - ignore words that include non-letter characters like gəl-get, 2005-ci, etc.
 - replace symspell w deep ensemble
-- replace ngram with language model, gpt2
-- somehow include probabilities from spelling correction part, limit the N
-- merge words together in its initial form with punctuations
+- check ngram also
+- somehow include probabilities from spelling correction part, limit with N
+- merge words together in its initial form with punctuations at the end
